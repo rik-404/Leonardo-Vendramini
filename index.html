@@ -1,43 +1,99 @@
 <!DOCTYPE html>
-<html lang="pr-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/css/reset.css">
-    <link rel="stylesheet" href="src/css/style.css">
     <title>Leonardo Vendramini</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <img src="./assets/images/LV-logo.png" alt="">
+        </div>
         <nav>
-            <a class="titulo-site" href="./"><img src="./src/images/lv-logo.png" alt="Logo do site"></a>
-            <ul class="menu">
-                <li class="opcoes-menu"><a href="./index.html">IMOVEIS DISPONIVEIS</a></li>
-                <li class="opcoes-menu"><a href="./ROMS.html">CONTATOS</a></li>
-                <li class="opcoes-menu"><a href="./emuladores.html">SOBRE MIM</a></li>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#properties">Imóveis</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contact">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <div class="postagem">
-            <div class="imagem">
-          <img src="./src/images/logo-minha-casa-minha-vida-512.png" alt="Minha">
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Encontre seu imóvel aqui</h2>
+            <p>As melhores opções de imóveis exclusivos e sofisticados</p>
+            <a href="#properties" class="btn">Veja os imóveis</a>
         </div>
-        <div class="conteudo-postagem">
-        <p>Realize o sonho da casa própria com o programa Minha Casa Minha Vida! Condições especiais e facilidades de pagamento para você conquistar o seu lar. Não perca essa oportunidade única!</p>
-          <a href="/" class="piscar">Clique aqui para aproveitar!</a>
+    </section>
+
+    <section id="properties" class="properties">
+        <h2 class="section-title">Nossos Imóveis</h2>
+        <div class="property-list">
+            <div class="property">
+                <img src="https://via.placeholder.com/400x300" alt="Imóvel 1">
+                <div class="property-info">
+                    <h3>Apartamento 1</h3>
+                    <p>Localização privilegiada, 3 suítes, vista deslumbrante para o mar.</p>
+                    <span>R$ 5.000.000</span>
+                    <a href="#" class="btn">Ver mais</a>
+                </div>
+            </div>
+            <div class="property">
+                <img src="https://via.placeholder.com/400x300" alt="Imóvel 2">
+                <div class="property-info">
+                    <h3>Casa 2</h3>
+                    <p>Espaço amplo, piscina, design moderno e excelente localização.</p>
+                    <span>R$ 8.000.000</span>
+                    <a href="#" class="btn">Ver mais</a>
+                </div>
+            </div>
+            <div class="property">
+                <img src="https://via.placeholder.com/400x300" alt="Imóvel 3">
+                <div class="property-info">
+                    <h3>Casa 3</h3>
+                    <p>Casa de campo, arquitetura moderna e luxo em meio à natureza.</p>
+                    <span>R$ 12.000.000</span>
+                    <a href="#" class="btn">Ver mais</a>
+                </div>
+            </div>
         </div>
+    </section>
+
+    <section id="about" class="about">
+    <h2 class="section-title">Sobre Mim</h2>
+    <div class="about-content">
+        <div class="about-text">
+            <p>Sou um profissional apaixonado pelo mercado imobiliário, com uma trajetória construída em liderança, aprendizado constante e resultados sólidos. Atualmente, sou Coordenador de Vendas na CNB Imóveis, a imobiliária que mais admiro em Piracicaba-SP, onde estou há mais de dois anos. Aqui, pude alavancar minha experiência, trazendo comigo uma bagagem de 3,5 anos em uma das maiores construtoras do Brasil. Na CNB, tenho aprendido e contribuído com minha experiência, sempre alinhado ao conceito de "Dividir para Multiplicar", um valor que permeia todo o trabalho da empresa e que tem sido fundamental no meu desenvolvimento pessoal e profissional.
+
+              Antes de assumir a coordenação na CNB, fui Especialista Imobiliário também nessa mesma imobiliária, e Gerente de Vendas na Direcional Engenharia, onde tive a oportunidade de reestruturar operações em Piracicaba-SP, superando desafios e alcançando grandes aprendizados. Além disso, fui Coordenador de Vendas em Santa Bárbara d’Oeste e Rio Claro, o que me proporcionou uma experiência valiosa de liderança e a honra de participar do maior lançamento imobiliário de Rio Claro-SP.
+              
+              Meu foco é proporcionar a realização do sonho do primeiro imóvel para os clientes, seja por meio da consultoria, da negociação ou da liderança da equipe. Acredito que a transparência, a humildade e a competência são essenciais para alcançar o sucesso no setor imobiliário e, com isso, continuo em constante aprendizado para me aprimorar e entregar sempre o melhor para os meus clientes e para a minha equipe.</p>
         </div>
-    </main>
-    <footer class="rodadpe">
-        <div class="nomerodape">
-            <h2>Leonardo vendramini</h2>
+        <div class="about-image">
+            <img src="./assets/images/LeonardoVendramini.jpg" alt="Leonardo Vendramini">
         </div>
-        <p>Copyright © 2025 Leonardo Vendramini – Todos os direitos reservados</p>
-        <div class="contatos">
-            <a href="https://www.instagram.com/leonardo.vendramini_"><img src="./src/images/logo insta.png" alt="Instagram"></a>
-            <a href="https://www.facebook.com/contato.vendramini"><img src="./src/images/logo-do-facebook.png" alt="Facebook"></a>
-            <a href="https://www.linkedin.com/in/vendraminicontato"><img src="./src/images/logo linkedin.png" alt="linkedin"></a>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Contato</h2>
+        <p>Entre em contato conosco para mais informações ou agendar uma visita.</p>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="email" placeholder="Email" required>
+            <textarea placeholder="Mensagem" required></textarea>
+            <button type="submit" class="btn">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Leonardo Vendramini | Todos os direitos reservados.</p>
+        <div class="footer-contacts">
+          <a href="https://www.instagram.com/leonardo.vendramini_/"><img src="./assets/images/instagram (1).png" alt="Instagram"></a>
+          <a href="https://www.linkedin.com/in/vendraminicontato/"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
         </div>
     </footer>
 </body>
