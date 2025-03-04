@@ -1,1 +1,1 @@
-Projeto de imobiliaria em uma pagina só feitya insipi5rada em meu irmão
+Projeto de imobiliaria em uma pagina só feita inspirada em meu irmão
